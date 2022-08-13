@@ -29,7 +29,7 @@ global.TextDecoder = class {
     constructor(encoding) {
         if (encoding !== 'ascii') {
             this._decoder = new util.TextDecoder(encoding);
-        }
+        } 
     }
 
     decode(data) {
