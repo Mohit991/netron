@@ -1,5 +1,5 @@
 
-const electron = require('electron');
+const electron = require('electron');   
 const updater = require('electron-updater');
 const fs = require('fs');
 const os = require('os');
