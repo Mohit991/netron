@@ -1,7 +1,7 @@
 
 var armnn = armnn || {};
 var flatbuffers = flatbuffers || require('./flatbuffers');
-    
+     
 armnn.ModelFactory = class {
 
     match(context) {
